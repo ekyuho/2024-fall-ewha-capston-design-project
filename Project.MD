@@ -2,7 +2,7 @@
 |---|---|
 |1팀|[https://github.com/minsihihi/Fabre/blob/main/Ground_Rule.md](https://github.com/minsihihi/Fabre/blob/main/Ground_Rule.md)
 |2팀|[https://github.com/Team-Tamtam/Tamtam-BE/blob/main/Ground_Rule.md](https://github.com/Team-Tamtam/Tamtam-BE/blob/main/Ground_Rule.md)
-|3팀|[https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md](https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md)
+|3팀|[https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md -- 링크에러가 발생합니다!](https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md)
 |4팀|[https://github.com/217-etc/2024Capstone/blob/main/Ground_Rule.MD](https://github.com/217-etc/2024Capstone/blob/main/Ground_Rule.MD)
 |5팀|[https://github.com/sejin-coding/infinite-challenge/blob/main/Ground_Rule.MD](https://github.com/sejin-coding/infinite-challenge/blob/main/Ground_Rule.MD)
 |6팀|[https://github.com/Team-Goggle/Goggle/blob/main/Ground_Rule.md](https://github.com/Team-Goggle/Goggle/blob/main/Ground_Rule.md)
