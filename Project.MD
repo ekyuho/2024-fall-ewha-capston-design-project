@@ -44,3 +44,4 @@
 |42팀|[https://github.com/Capston-Team42/2024-capston/blob/main/Ground_Rule.md](https://github.com/Capston-Team42/2024-capston/blob/main/Ground_Rule.md)
 |43팀|[https://github.com/Capston-Team43/Capston43/blob/main/Ground_Rule.md](https://github.com/Capston-Team43/Capston43/blob/main/Ground_Rule.md)
 |44팀|[https://github.com/Yeolmaeg/Capstone-SGK/blob/main/Ground_Rule.MD](https://github.com/Yeolmaeg/Capstone-SGK/blob/main/Ground_Rule.MD)
+
