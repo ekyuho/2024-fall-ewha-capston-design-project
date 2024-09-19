@@ -9,7 +9,7 @@
 |7팀|[https://github.com/EWHA-Tespa/start_research/blob/main/Ground_Rule.MD](https://github.com/EWHA-Tespa/start_research/blob/main/Ground_Rule.MD)
 |8팀|[https://github.com/ei-ai/eiai/blob/main/GroundRules.md](https://github.com/ei-ai/eiai/blob/main/GroundRules.md)
 |9팀|[https://github.com/Jppin/capstone-design/blob/main/GroundRule.md](https://github.com/Jppin/capstone-design/blob/main/GroundRule.md)
-|10팀|[https://github.com/Sunho12/X10/blob/main/GroundRule.md](https://github.com/Sunho12/X10/blob/main/GroundRule.md)
+|10팀|[https://github.com/EwhaCapstone-X10/X10/blob/main/Ground_Rule.md](https://github.com/EwhaCapstone-X10/X10/blob/main/Ground_Rule.md)
 |11팀|[https://github.com/baejuwon-30/2024-2-capston-design/blob/main/Ground_Rule.MD](https://github.com/baejuwon-30/2024-2-capston-design/blob/main/Ground_Rule.MD)
 |12팀|[https://github.com/2024EwhaCapston/Start/blob/main/Ground_Rule.md](https://github.com/2024EwhaCapston/Start/blob/main/Ground_Rule.md)
 |13팀|[https://github.com/Capston-2024/GroundRule/blob/main/GroundRule.md](https://github.com/Capston-2024/GroundRule/blob/main/GroundRule.md)
