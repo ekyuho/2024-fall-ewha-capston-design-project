@@ -1,3 +1,50 @@
+# 전체 프로젝트 리스트
+    |팀번호|팀명| 프로젝트|
+    |:---|:---|:---|
+| [1](#team-1) | 파브르 | 파브르 |
+| [2](#team-2) | 탐탐 | 탐탐 |
+| [3](#team-3) | 쌈뽕 워리어즈 | 쌈뽕 워리어즈 |
+| [4](#team-4) | 217 더보기 | 217 더보기 |
+| [5](#team-5) | 무한도전  | 무한도전  |
+| [6](#team-6) | Goggle | Goggle |
+| [7](#team-7) | 테스파 | 테스파 |
+| [8](#team-8) | eiai | eiai |
+| [9](#team-9) | Jppin’ | Jppin’ |
+| [10](#team-10) | X10 (엑스텐) | X10 (엑스텐) |
+| [11](#team-11) | nAIvis | nAIvis |
+| [12](#team-12) | 미룬이들 | 미룬이들 |
+| [13](#team-13) | tripleJ | tripleJ |
+| [14](#team-14) | 고속도로위 | 고속도로위 |
+| [15](#team-15) | SSB | SSB |
+| [16](#team-16) | RexT | RexT |
+| [17](#team-17) | 테크핑 | 테크핑 |
+| [18](#team-18) | 코드의 정상화 | 코드의 정상화 |
+| [19](#team-19) | 정상이다 | 정상이다 |
+| [20](#team-20) | 뜨개걸즈 | 뜨개걸즈 |
+| [21](#team-21) | 가능한 | 가능한 |
+| [22](#team-22) | ZIP가기 | ZIP가기 |
+| [23](#team-23) | 클로버 | 클로버 |
+| [24](#team-24) | 대장정 | 대장정 |
+| [25](#team-25) | 디어리 | 디어리 |
+| [26](#team-26) | Joggim' | Joggim' |
+| [27](#team-27) | 그로쓰 | 그로쓰 |
+| [28](#team-28) | HUK | HUK |
+| [29](#team-29) | 컴세마리 | 컴세마리 |
+| [30](#team-30) | 찹쌀떡 | 찹쌀떡 |
+| [31](#team-31) | 김미니 | 김미니 |
+| [32](#team-32) | 홈런볼 | 홈런볼 |
+| [33](#team-33) | 아리아리 | 아리아리 |
+| [34](#team-34) | IT인 | IT인 |
+| [35](#team-35) | 트리코드 | 트리코드 |
+| [36](#team-36) | 해피코더 | 해피코더 |
+| [37](#team-37) | 코드셋 | 코드셋 |
+| [38](#team-38) | 상상그이상 | 상상그이상 |
+| [39](#team-39) | 캡짱 | 캡짱 |
+| [40](#team-40) | 판타지 | 판타지 |
+| [41](#team-41) | tech wave | tech wave |
+| [42](#team-42) | 수아정 | 수아정 |
+| [43](#team-43) | 코코넛 | 코코넛 |
+| [44](#team-44) | E-CLAIR | E-CLAIR |
 ## Team 1
 |항목|내용|
 |---|---|
@@ -33,7 +80,7 @@
 | 무엇을 만들고자 하는가 | 저희가 개발하려고 하는 것은 Text-to-Video기술과, 생성형 AI(GPT-4)를 활용하여 자동화 파이프라인으로 특정 뉴스레터, 기사, 뉴스를 입력으로 넣은 다음, 해당 텍스트에서 추출한 핵심 키워드를 기반으로 숏폼 형식의 영상을 산출하는 서비스입니다.  |
 | 고객 | - 이름 : 한민지<br>- 나이 : 32세<br>- 성별 : 여자<br>- 직업 : IT 회사의 대리<br>- 성격 :  내향적이고 수동적인 성격을 가지고 있음.<br><br>- 라이프스타일<br>    - 회사 집 회사 집을 반복하며, 개인 시간이 충분하지 않음.<br>    - 긴 영상이나 글을 읽을 여유가 없어 주로 숏폼 컨텐츠를 즐김.<br><br>- 필요와 요구<br>    - 시사 상식 향상을 필요로 함<br>    - 짧은 시간 안에 큰 노력 없이 간결한 정보를 얻고 싶어함<br><br>- 자주 사용하는 서비스<br>    - 유튜브 숏츠, 인스타그램 릴스(짧고 재미있는 영상 시청)<br><br>- 관심분야<br>    - 과학기술, 정치 |
 | Pain Point | - 기존 영상 플랫폼을 통해 숏폼 컨텐츠를 즐기면 평소에 보는 특정 주제에 편향된 영상들만 계속 접하게 됨<br><br>- 진위 여부가 판별되지 않는 자극적인 뉴스를 소비하게 됨<br><br>- 현대인이 뉴스, 뉴스레터 등 긴 글에 담긴 이슈/정보들을 소비하지 않아서 정보 소외를 느낌 |
-| 솔루션 | [AI]<br><br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>T5 - https://github.com/google-research/t5x<br>NeuralSpeech - https://github.com/microsoft/NeuralSpeech<br>Wav2Lip - https://github.com/Rudrabha/Wav2Lip<br><br>[Frontend]<br><br>React Native - https://reactnative.dev/<br>TypeScript - https://www.typescriptlang.org/<br><br>[Backend]<br><br>Spring Boot - https://spring.io/projects/spring-boot<br>AWS EC2 - https://aws.amazon.com/ko/ec2/<br>AWS S3 - https://aws.amazon.com/ko/s3/ |
+| 솔루션 | [AI]<br><br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>T5 - https://github.com/google-research/t5x<br>NeuralSpeech - https://github.com/microsoft/NeuralSpeech<br>Wav2Lip - https://github.com/Rudrabha/Wav2Lip<br><br>[Frontend]<br><br>React Native - https://reactnative.dev/<br>TypeScript - https://www.typescriptlang.org/<br><br>[Backend]<br><br>Spring Boot - https://spring.io/projects/spring-boot<br>AWS EC2 - https://aws.amazon.com/ko/ec2/<br>AWS S3 - https://aws.amazon.com/ko/s3/ |
 | 오래 축적한 데이타의 잠재적 가치 | - 사람들이 주로 보고 싶어 하는 뉴스 유형(정치, 범죄, 연예 등)의 비율을 알 수 있게 되고, 현대인들이 어떠한 사회 현상와 가치에 관심이 있는지 파악할 수 있게 되어 이를 겨냥한 추가적인 상품이나 광고 서비스 등을 런칭할 수 있음.<br><br>- 연령대별, 성별 뉴스 유형의 관심도 데이터가 축적되어 고객의 특성에 맞는 뉴스를 추천하는 서비스를 추가로 런칭할 수 있음. |
 | 기대성과 | - 많은 사람들이 사회 이슈를 쉽고 빠르게, 그리고 간략하게 접할 수 있어 짧은 시간 안에도 쉽게 정보를 얻음에 따라 사회 내 정보 소외를 완화할 수 있음.<br><br>- 과장되거나 편파적인 뉴스가 아닌 객관적인 사실만 접하게 되면서 미디어 리터러시 능력을 향상할 수 있고, 객관적인 시야를 가질 수 있음. |
 | 팀 그라운드룰 | https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md |
@@ -432,7 +479,7 @@
 |---|---|
 | 팀명칭 | IT인 |
 | 프로젝트명 | Cross-modal Federated Learning for Multimodal Data Integration |
-| 키워드 | Multimodal Deep Learning, Federated Learning, Cross-modal deep learning, Modality Translation |
+| 키워드 | Multimodal Deep Learning, Federated Learning, Cross-modal deep learning, Modality Translation |
 | 무엇을 만들고자 하는가 |  “클라이언트마다 서로 다른 데이터 모달리티가 존재할 때, 중앙 서버가 이러한 데이터를 효과적으로 통합해 학습하는 연합학습 구조” 를 디자인하고자 합니다. |
 | 고객 | 기존의 연합학습 연구는 homogeneous data 를 이용하여 진행되었습니다. 그래서 기존의 연합학습 시스템은 한 가지 모달리티에만 집중해 전체 데이터를 통합적으로 학습하는 데 한계가 있습니다. 하지만 현실 세계에는 다양한 모달리티의 데이터가 존재하기 때문에, 지금까지의 연구는 현실 세계를 온전히 반영하기 어렵습니다. 모달리티 간 변환 및 통합을 통해 다양한 형태의 데이터를 효과적으로 학습하는 연합학습 모델을 도입하면 더 다양한 현실 세계의 문제를 푸는 데에 있어 큰 도움이 될 것입니다.  |
 | Pain Point | 예시 1) 소셜 미디어에서의 사용자 경험 저하: 소셜 미디어 플랫폼은 다양한 모달리티 데이터를 다룹니다. 예를 들어, 텍스트, 이미지, 비디오, 음성 데이터가 사용자와의 상호작용을 통해 생성됩니다. 기존의 연합학습은 한 가지 모달리티에만 집중하게 되어, 텍스트 데이터만 학습하거나 이미지 데이터만 학습하는 식의 제한이 있습니다. 결과적으로 사용자의 행동 패턴이나 관심사를 정확히 파악하기 어려워, 개인화 추천 시스템의 성능이 떨어지거나 사용자 경험이 저하될 수 있습니다.<br>예시 2) 병원마다 보유한 의료 데이터는 다양할 수 있습니다. 한 병원은 MRI 이미지 데이터를, 다른 병원은 환자의 임상 텍스트 기록 데이터를 보유하고 있을 수 있습니다. 기존의 단일 모달리티 연합학습 구조에서는 각 병원이 가진 데이터를 별도로 학습해야 하기 때문에, 여러 모달리티를 통합하여 정확한 진단 모델을 만드는 것이 어렵습니다. 예를 들어, 이미지 데이터만 학습한 모델은 텍스트 정보에서 유의미한 패턴을 학습하지 못해, 진단 정확도가 떨어질 수 있습니다. MMFL이 있다면 이러한 다양한 의료 데이터를 통합 학습하여 보다 정확한 예측과 진단이 가능할 것입니다. |
