@@ -34,7 +34,7 @@
 | [31](#team-31) | 김미니 | 셀프 PT |
 | [32](#team-32) | 홈런볼 | AI를 활용해 사용자 맞춤형 전자 기기를 추천하고, 스펙을 이해하기 쉽게 설명하며, LLM 기반 상담 시스템과 커뮤니티 기능을 제공하는 기기 추천 서비스 |
 | [33](#team-33) | 아리아리 | LLM 기술 기반의 AI NPC와 상호작용 가능한 종교 전파 멀티플레이 게임 |
-| [34](#team-34) | IT인 | Cross-modal Federated Learning for Multimodal Data Integration |
+| [34](#team-34) | IT인 | Cross-modal Federated Learning through Multimodal Data Integration and Translation |
 | [35](#team-35) | 트리코드 | 냉장고 속 재료를 효율적으로 사용하여 식단을 관리하는데 어려움을 겪는 사람들을 위해 이미지 인식, 개인 맞춤 레시피 추천 시스템, AI 기술을 사용하여 사용자 맞춤형 레시피를 제공하는 AI 기반 웹 서비스 |
 | [36](#team-36) | 해피코더 | 천재지변에 따른 농산물(야채, 과일 등) 의 가격 변화 동향과 앞으로의 추이를 예측해 합리적인 소비를 도와주는 서비스 |
 | [37](#team-37) | 코드셋 | AI 챗봇과의 대화를 통해 AI가 사용자 대신 하루의 일과를 요약해서 감정 상태를 중심으로 그날 하루를 정리해주는 어플 |
@@ -544,7 +544,7 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | IT인 |
-| 프로젝트명 | Cross-modal Federated Learning for Multimodal Data Integration |
+| 프로젝트명 | Cross-modal Federated Learning through Multimodal Data Integration and Translation |
 | 키워드 | Multimodal Deep Learning, Federated Learning, Cross-modal deep learning, Modality Translation |
 | 무엇을 만들고자 하는가 |  “클라이언트마다 서로 다른 데이터 모달리티가 존재할 때, 중앙 서버가 이러한 데이터를 효과적으로 통합해 학습하는 연합학습 구조” 를 디자인하고자 합니다. |
 | 고객 | 기존의 연합학습 연구는 homogeneous data 를 이용하여 진행되었습니다. 그래서 기존의 연합학습 시스템은 한 가지 모달리티에만 집중해 전체 데이터를 통합적으로 학습하는 데 한계가 있습니다. 하지만 현실 세계에는 다양한 모달리티의 데이터가 존재하기 때문에, 지금까지의 연구는 현실 세계를 온전히 반영하기 어렵습니다. 모달리티 간 변환 및 통합을 통해 다양한 형태의 데이터를 효과적으로 학습하는 연합학습 모델을 도입하면 더 다양한 현실 세계의 문제를 푸는 데에 있어 큰 도움이 될 것입니다.  |
