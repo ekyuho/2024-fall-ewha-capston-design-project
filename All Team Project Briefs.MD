@@ -128,8 +128,8 @@
 | 키워드 | 바둑, LangChain, LAG, LLM |
 | 무엇을 만들고자 하는가 | 바둑 AI엔진, 생성형 AI 기술, SGF-Analyze 오픈소스를 통합하여, 사용자가 업로드한 SGF 포맷의 바둑 기보를 분석하여 자동으로 해설을 생성하고 복기(復棋)를 지원하는 시스템 구축. |
 | 고객 | - 아마추어 바둑팬: AI 복기를 통해 실력을 향상시키려는 초~고급 실력의 바둑 아마추어.<br> - 바둑 지도사: 학생들에게 바둑을 교육할 때 참고할 수 있는 도구가 필요한 강사들.<br> - 바둑 기자: 프로 경기를 분석하고 기사로 작성할 때 상세한 해설이 필요한 기자들. |
-| Pain Point | - **복기의 복잡성 및 고비용 문제**: 복기는 바둑 실력 향상에 필수적이지만 초보~중급자에게는 어렵고, 기존 AI 서비스는 시간과 노력이 많이 듦.<br> - **해설의 품질**: 기존 바둑 AI 서비스에서 제공하는 해설은 사용자 수준에 맞추기 어렵고, 단순 수치 정보만 제공하는 경우가 많음. |
-| 솔루션 | - 바둑 AI 오픈소스: [KataGo](https://github.com/lightvector/KataGo) or [Leela Zero](https://github.com/leela-zero/leela-zero) <br> - SFG 분석 오픈소스: [sgf-analyze](https://github.com/9beach/analyze-sgf), [sgf parser](https://github.com/SabakiHQ/sgf) <br> - AI: LangChain, RAG <br> - LLM: GPT or BERT <br> - Front-end: React.js + Next.js + TypeScript <br> - Back-end: NginX + Node.js or django + RDS |
+| Pain Point | - 복기의 고비용 문제: 복기는 기력 향상에 필수적이지만 초~중급자에게는 어렵고, 기존 AI 프로그램을 사용하기에는 시간과 노력이 많이 듦. <br> - 해설의 품질 문제: 기존 바둑 AI 서비스에서 제공하는 해설은 사용자 수준에 맞추기 어렵고, 단순 수치 정보만 제공하는 경우가 많음. |
+| 솔루션 | - 바둑 AI 오픈소스: [KataGo](https://github.com/lightvector/KataGo) or [Leela Zero](https://github.com/leela-zero/leela-zero) <br> - SGF 분석 오픈소스: [sgf-analyze](https://github.com/9beach/analyze-sgf), [sgf parser](https://github.com/SabakiHQ/sgf) <br> - AI: LangChain, RAG <br> - LLM: GPT or BERT <br> - Front-end: React.js + Next.js + TypeScript <br> - Back-end: NginX + Node.js or django + RDS |
 | 오래 축적한 데이타의 잠재적 가치 | - 기보 분석 데이터: 다양한 실력대의 기보 데이터를 바탕으로 바둑 연구 데이터로 활용 가능. <br> - 데이터 기반 해설 개선: 사용자의 대국 해설 데이터를 축적하여 AI의 해설 정확도를 지속적으로 개선 가능. |
 | 기대성과 | - 사용자 맞춤형 바둑 학습 지원: AI 기반의 자동 해설로 초보부터 고급자까지 각자의 수준에 맞는 복기 지원, 실력 향상에 기여. <br> - 시간 절약 및 편의성 향상: 복잡한 분석 과정을 자동화하여 더 쉽게 바둑을 분석하고 해설을 얻을 수 있음. <br> - 연구 및 교육 자료 지원: 다양한 기보 데이터와 AI 해설을 통해 바둑 연구 및 교육의 자료로 활용할 수 있는 가능성. |
 | 팀 그라운드룰 | https://github.com/Team-Goggle/Goggle/blob/main/Ground_Rule.md |
