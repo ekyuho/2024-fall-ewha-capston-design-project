@@ -11,7 +11,7 @@
 | [8](#team-8) | eiai | X+Pruning: 다른 경량화 기법에 aware한 pruning 연구 |
 | [9](#team-9) | Jppin’ | 실버 - 여가시간이 많고 정보 접근성이 취약한 노년층의 활동적이고 의미 있는 삶을 지원하기 위해, 선호 취미 키워드를 추출하는 AI 기반 추천 시스템을 사용하여 취미와 활동을 제안하는 플랫폼. 이 플랫폼은 노인 친화적인 직관적 UI/UX와 함께, 개인 맞춤형 취미 로드맵과 동기부여 시스템을 통해 지속적인 참여를 유도하고, 디지털 격차 문제를 해결한다. 이를 통해 사용자는 자기 주도적인 취미 생활을 통해 소외감을 줄이고, 삶의 활력을 되찾을 수 있다. |
 | [10](#team-10) | X10 (엑스텐) | 딥러닝 기반 이미지 분석 기술과 챗봇 인터페이스를 통해 사용자가 SNS에 업로드할 사진 및 동영상에 최적화된 음원을 추천해주는 서비스 |
-| [11](#team-11) | nAIvis | Continual Learning을 이용한 Catastrophic forgetting 문제 해결을 통한 Deep Fingerprinting 기술 강화 |
+| [11](#team-11) | nAIvis | 지속 학습을 적용한 치명적 망각 해결과 Deep Fingerprinting model 강화 |
 | [12](#team-12) | 미룬이들 | 해외에서 발생할 수 있는 건강 및 언어 문제를 AI 챗봇을 기반으로 솔루션을 제공하는 해외 약품 정보 통합 플랫폼  |
 | [13](#team-13) | tripleJ | 외국인 노동자의 한국 정착을 위한, AI 기반 맞춤형 정책 추천 서비스 |
 | [14](#team-14) | 고속도로위 | ai-driven autonomous mobility service |
@@ -199,13 +199,13 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | nAIvis |
-| 프로젝트명 | Continual Learning을 이용한 Catastrophic forgetting 문제 해결을 통한 Deep Fingerprinting 기술 강화 |
-| 키워드 | Continual Learning, Deep fingerprinting, network security |
-| 무엇을 만들고자 하는가 | 기존 Deep Fingerprinting 모델의 데이터 망각 문제를 개선한 새로운 네트워크 공격 모델을 제안함 |
-| 고객 | 네트워크 보안 업계에서는 현재까지 연구된 Deep Fingerprinting 모델을 지속적으로 사용하는 데 어려움을 겪고 있다. 새로운 웹사이트 데이터를 학습시킬 때 기존에 있던 데이터들에 대한 정보를 망각하는 문제가 발생하고 있으며, 이러한 문제는 모델이 이전에 학습한 데이터를 효과적으로 유지하면서도 새로운 데이터를 학습하는 데 어려움을 준다. |
-| Pain Point | 모델이 새로운 데이터를 학습하면서 기존 데이터를 망각하게 되면 모델의 성능이 저하되는 문제가 발생한다. 이로 인해 모델을 재학습시키거나 수정하는 데 추가적인 시간과 비용이 소요되며, 재학습을 위한 새로운 데이터를 수집하는 과정에서도 상당한 시간이 필요하다.  |
-| 솔루션 | Continual Learning<br>Deep Generative Replay |
-| 오래 축적한 데이타의 잠재적 가치 | 과거에 있던 웹사이트 데이터 뿐만이 아니라 새롭게 개발되는 웹사이트에 대한 데이터까지 학습함에 따라 점점 데이터셋의 크기를 키워갈 수 있으며, 이로써 모델 자체의 정확도에 발전을 가져온다는 성과를 낼 수 있음 |
+| 프로젝트명 | 지속 학습을 적용한 치명적 망각 해결과 Deep Fingerprinting model 강화 |
+| 키워드 | Continual Learning, Deep Fingerprinting, network security |
+| 무엇을 만들고자 하는가 | Deep Fingerprinting 모델의 현실세계 적용에서 발생하는 Catastrophic Forgetting 문제를 해결하기 위해 Continual Learning의 기법들을 결합하여 강화된 Deep Fingerprinting model을 설계하고자 한다. |
+| 고객 | 시간에 따라 변화하는 네트워크 데이터셋의 특성상 현실세계에 적용되는 Deep Fingerprinting 모델에서 치명적 망각(Catastrophic Forgetting) 문제가 발생한다. 딥러닝 모델 개발자들이 처음 모델을 학습시킬 때, 아무리 막대한 비용을 들여 좋은 성능을 가진 모델을 만들더라도 현실 세계에 따라 변화된 네트워크 데이터들은 Deep Fingerprinting 모델의 기존 가중치를 훼손시키고 성능 저하 등의 문제를 발생시켜 모델을 지속적으로 사용할 수 없게 한다. <br><br> - 과거부터 현재까지 어떤 시점에서의 데이터를 사용해도 좋은 성능을 이끌어내고 싶다. <br> - 기존 데이터에 대한 정보를 잊지 않으면서 새로운 정보를 계속해서 모델을 학습시키고 발전시키고 싶다. <br> - 학습시 사용한 폐쇄적인 데이터셋 뿐만 아니라, 현실 세계에서 계속해서 생성되는 데이터들에 대해 좋은 효용을 만들어내는 모델을 설계하고 싶다. <br> - 더 좋은 성능을 이끌어내는 Continual Learning 기술의 가능성을 확인하고 싶다.|
+| Pain Point | 모델이 새로운 데이터를 학습하면서 기존 데이터를 망각하게 되면 모델의 성능이 저하되는 문제가 발생한다. 이로 인해 모델을 재학습시키거나 수정하는 데 추가적인 시간과 비용이 소요되며, 재학습을 위한 새로운 데이터를 수집하는 과정에서도 상당한 시간과 비용이 필요하다.  |
+| 솔루션 | 지속적 학습(Continual Learning) : EWC, EWCo, SI <br>Deep Learning <br>Python : tensorflow, pytorch <br>Git/GitHub <br>Notion |
+| 오래 축적한 데이타의 잠재적 가치 | 과거에 있던 웹사이트 데이터 뿐만이 아니라 새롭게 개발되는 웹사이트에 대한 데이터까지 학습함에 따라 넓은 시간적 범위에 대해 사용 가능한 데이터셋과 가중치를 수집할 수 있으며, 타 분야로의 Continual Learning 적용 가능성을 제시할 수 있다. |
 | 기대성과 | 더욱 강력하고 지속 가능한 Deep Fingerprinting 모델을 개발함에 따라 네트워크 보안 분야에 있어서 발전을 가져올 것으로 기대됨 |
 | 팀 그라운드룰 | https://github.com/baejuwon-30/2024-2-capston-design/blob/main/Ground_Rule.MD |
 
