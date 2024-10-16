@@ -139,8 +139,7 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 테스파 |
-| 프로젝트명 | Advancing Continual Decentralized Learning through 
-Selective Knowledge Transfer across Diverse Modalities: 1:N Approach |
+| 프로젝트명 | Advancing Continual Decentralized Learning Through Selective Knowledge Transfer Across Diverse Modalities: 1:N Approach |
 | 키워드 | Continuous learning, 1:N Federated learning, Edge AI |
 | 무엇을 만들고자 하는가 | Decentralized learning 상황에서 catastrophic forgetting을 방지하기 위한 1:N multi-modality knowledge transfer approach 개발|
 | 고객 | 특히 multi-modality 데이터를 처리하는 decentralized learning system를 활용하는 자율주행, IoT 및 스마트시티, 스마트팜 등 분야를 주 고객으로 타겟팅할 수 있을 것이다. 엣지 AI 환경에서는 각 디바이스가 자신의 로컬 데이터를 사용해 독립적으로 학습을 진행하는데, 이러한 데이터는 이질적이기 때문에 디바이스마다 학습한 지식에 차이가 발생한다. 하지만 디바이스들 간에 데이터를 직접 공유할 수 없다는 데이터 프라이버시의 한계로 인해, 성능 향상을 위해서는 디바이스들이 서로 부족한 지식을 효과적으로 보완하는 방법이 필요하다. 따라서 데이터를 공유하지 않고도 디바이스들이 서로의 학습된 지식을 활용하여 자신의 모델 성능을 강화할 수 있는 접근 방식이 필요하다.|
