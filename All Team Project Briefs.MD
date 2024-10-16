@@ -139,14 +139,15 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 테스파 |
-| 프로젝트명 | 각 디바이스별 로컬 데이터로 학습한 모델의 명확성을 높이기 위해 디바이스 간 1:n 관계의 선택적이며 부분적인 Knowledge Transfer Learning을 통한 학습 최적화 및 generalization |
+| 프로젝트명 | Advancing Continual Decentralized Learning through 
+Selective Knowledge Transfer across Diverse Modalities: 1:N Approach |
 | 키워드 | Continuous learning, 1:N Federated learning, Edge AI |
-| 무엇을 만들고자 하는가 | 연합 지속적 학습(Federated Continual Learning) 환경에서 디바이스들이 서로 선택적으로 학습된 지식을 전이할 수 있도록 엣지 AI에서 성능을 최적화하려고 한다.  |
-| 고객 | 엣지 AI 환경에서는 각 디바이스가 자신의 로컬 데이터를 사용해 독립적으로 학습을 진행하는데, 이러한 데이터는 이질적이기 때문에 디바이스마다 학습한 지식에 차이가 발생한다. 하지만 디바이스들 간에 데이터를 직접 공유할 수 없다는 데이터 프라이버시의 한계로 인해, 성능 향상을 위해서는 디바이스들이 서로 부족한 지식을 효과적으로 보완하는 방법이 필요하다. 따라서 데이터를 공유하지 않고도 디바이스들이 서로의 학습된 지식을 활용하여 자신의 모델 성능을 강화할 수 있는 접근 방식이 필요하다. |
-| Pain Point | 1.Heterogeneous data의 효율적인 continuous, federated learning 알고리즘 부재로 인해 edge model은 real-life task에서 generalization 부족, Knowledge transfer 및 model concatenate 과정에서 communication cost, computational cost 문제를 겪었다.<br>2. SOTA 연구는 Federated learning에서 주로 class-incremental learning을 중점적으로 다루었는데, 이는 학습 과정에서 global model을 validate 하며 불가피하게 엣지 디바이스의 raw data의 전송을 요구하며 privacy 보호 문제를 갖게 되었다.<br>3. Continuous learning 과정에서 SOTA연구는 모델을 새로운 데이터로 학습시킬 때 disastrous forgetting 문제를 막기위해 server 또는 기존 모델 snapshot을 필요로하며 높은 computational  cost를 보였다. |
-| 솔루션 | PyTorch<br>ModelDiff<br>Keras<br>Tensorflow |
+| 무엇을 만들고자 하는가 | Decentralized learning 상황에서 catastrophic forgetting을 방지하기 위한 1:N multi-modality knowledge transfer approach 개발|
+| 고객 | 특히 multi-modality 데이터를 처리하는 decentralized learning system를 활용하는 자율주행, IoT 및 스마트시티, 스마트팜 등 분야를 주 고객으로 타겟팅할 수 있을 것이다. 엣지 AI 환경에서는 각 디바이스가 자신의 로컬 데이터를 사용해 독립적으로 학습을 진행하는데, 이러한 데이터는 이질적이기 때문에 디바이스마다 학습한 지식에 차이가 발생한다. 하지만 디바이스들 간에 데이터를 직접 공유할 수 없다는 데이터 프라이버시의 한계로 인해, 성능 향상을 위해서는 디바이스들이 서로 부족한 지식을 효과적으로 보완하는 방법이 필요하다. 따라서 데이터를 공유하지 않고도 디바이스들이 서로의 학습된 지식을 활용하여 자신의 모델 성능을 강화할 수 있는 접근 방식이 필요하다.|
+| Pain Point | 1.Heterogeneous data의 효율적인 continuous, federated learning 알고리즘 부재로 인해 edge model은 real-life task에서 generalization 부족, Knowledge transfer 및 model concatenate 과정에서 communication cost, computational cost 문제를 겪었다.<br>2. SOTA 연구는 Federated learning에서 주로 class-incremental learning을 중점적으로 다루었는데, 이는 학습 과정에서 global model을 validate 하며 불가피하게 엣지 디바이스의 raw data의 전송을 요구하며 privacy 보호 문제를 갖게 되었다.<br>3. Continuous learning 과정에서 SOTA연구는 모델을 새로운 데이터로 학습시킬 때 disastrous forgetting 문제를 막기위해 server 또는 기존 모델 snapshot을 필요로하며 높은 computational cost를 보였다. |
+| 솔루션 | PyTorch<br>ModelDiff<br>Numpy<br>CPG<br>Piggyback<br>Vessl AI |
 | 오래 축적한 데이타의 잠재적 가치 | 데이터로 만들어낼 수 있는 가치<br>다양한 디바이스에서 성능지표가 축적되고, 이 데이터를 통해 어떤 모델이나 작업이 knowledge transfer로 성능이 향상되었는지 알 수 있다. 각 디바이스 간의 knowledge transfer 과정에서 정보가 기록되며 시간이 지나면서 더 효율적인 통신 방법을 도출해낼 수 있는 데이터가 쌓인다. 데이터가 늘어남에 따라 지식 선택 전략이 더 정교해져, 기존 연구보다 더 나은 성과를 도출할 수 있을 것이다.  |
-| 기대성과 | 엣지 AI의 학습 효율을 극대화할 수 있고, 사용자의 프라이버시를 보호하면서도 통신 비용을 절감할 수 있는 이점이 있다. 엣지 AI의 적용이 필요한 다양한 분야에서 인공지능의 활용을 크게 확장할 수 있다.  |
+| 기대성과 | 엣지 AI의 학습 효율을 극대화할 수 있고, 사용자의 프라이버시를 보호하면서도 통신 비용을 절감할 수 있는 이점이 있다. Decentralized 상황에서 엣지 AI의 적용이 필요한 다양한 분야에서 인공지능의 활용을 크게 확장할 수 있다.  |
 | 팀 그라운드룰 | https://github.com/EWHA-Tespa/start_research/blob/main/Ground_Rule.MD |
 
   [Return Top](#전체-프로젝트-리스트)
