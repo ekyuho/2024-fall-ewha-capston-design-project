@@ -8,7 +8,7 @@
 | [5](#team-5) | 무한도전  | 귀국 후 남은 외국 현금을 거리 기반 매칭을 통해 필요한 사람들에게 연결하는 AI 환전 플랫폼 |
 | [6](#team-6) | Goggle | LangChain과 RAG 기반의 AI 바둑 복기(復棋) 서비스 |
 | [7](#team-7) | 테스파 | 각 디바이스별 로컬 데이터로 학습한 모델의 명확성을 높이기 위해 디바이스 간 1:n 관계의 선택적이며 부분적인 Knowledge Transfer Learning을 통한 학습 최적화 및 generalization |
-| [8](#team-8) | eiai | NPU Aware Transformer for Edgy AI and Green AI |
+| [8](#team-8) | eiai | NPU Aware Transformer for Edge AI and Green AI |
 | [9](#team-9) | Jppin’ | 사용자의 건강검진 결과를 OCR 기술을 통해 간편하게 추출하고, 장기적으로 데이터를 누적 추합하여 사용자가 필요로 하는 건강 정보를 직관적으로 시각화하는 앱 서비스 |
 | [10](#team-10) | X10 (엑스텐) | 딥러닝 기반 이미지 분석 기술과 챗봇 인터페이스를 통해 사용자가 SNS에 업로드할 사진 및 동영상에 최적화된 음원을 추천해주는 서비스 |
 | [11](#team-11) | nAIvis | 지속 학습을 적용한 치명적 망각 해결과 Deep Fingerprinting model 강화 |
@@ -154,7 +154,7 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | eiai |
-| 프로젝트명 | NPU Aware Transformer for Edgy AI and Green AI |
+| 프로젝트명 | NPU Aware Transformer for Edge AI and Green AI |
 | 키워드 | NAS, NPU, Transformer |
 | 무엇을 만들고자 하는가 | 인공지능 처리에 최적화된 NPU칩의 구조에서 최적의 Transformer model을 찾아내는 NAS 기법 연구 |
 | 고객 | ChatGPT의 등장으로 인공지능 기술은 우리 일상 속에 깊숙이 자리잡았다. 데이터 센터에서 수많은 반도체를 활용하는, 공급자 중심의 클라우드 기반 AI는 우리에게 많은 기회를 제공하지만 동시에 보안, 응답지연, 유지비용과 같은 해결해야 할 문제들도 동반하고 있다. <br>이러한 문제를 해결하기 위해 중앙 클라우드에 대한 의존도를 줄이는 엣지 AI가 주목받고 있다.  <br>하지만 현재 딥러닝 모델의 학습과 추론과정에서는 모델의 크기와 연산량 증가 문제가 심화되고 있으며 이에 대한 해결이 필요하다.  <br>따라서 본 연구에서는 대규모 NLP 인공지능을 사용하는 기업이나 엣지 디바이스에서 LLM 사용을 원하는 일반 유저를 위해 엣지 AI를 실현할 수 있도록, 엣지 환경의 제한된 연산 능력과 메모리 및 전력 하에서 합리적인 모델의 탐색을 통한 경량화 기법을 연구하고자 한다. |
