@@ -7,7 +7,7 @@
 | [4](#team-4) | 217 더보기 | 안전 장비 사용법에 미숙한 현대인을 위한 몰입형 VR 안전 장비 교육 콘텐츠 |
 | [5](#team-5) | 무한도전  | 귀국 후 남은 외국 현금을 거리 기반 매칭을 통해 필요한 사람들에게 연결하는 AI 환전 플랫폼 |
 | [6](#team-6) | Goggle | LangChain과 RAG 기반의 AI 바둑 복기(復棋) 서비스 |
-| [7](#team-7) | 테스파 | 각 디바이스별 로컬 데이터로 학습한 모델의 명확성을 높이기 위해 디바이스 간 1:n 관계의 선택적이며 부분적인 Knowledge Transfer Learning을 통한 학습 최적화 및 generalization |
+| [7](#team-7) | 테스파 | Advancing Continual Decentralized Learning Through Selective Knowledge Transfer Across Diverse Modalities: 1:N Approach |
 | [8](#team-8) | eiai | NPU Aware Transformer for Edge AI and Green AI |
 | [9](#team-9) | Jppin’ | 사용자의 건강검진 결과를 OCR 기술을 통해 간편하게 추출하고, 장기적으로 데이터를 누적 추합하여 사용자가 필요로 하는 건강 정보를 직관적으로 시각화하는 앱 서비스 |
 | [10](#team-10) | X10 (엑스텐) | 딥러닝 기반 이미지 분석 기술과 챗봇 인터페이스를 통해 사용자가 SNS에 업로드할 사진 및 동영상에 최적화된 음원을 추천해주는 서비스 |
