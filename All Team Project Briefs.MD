@@ -22,7 +22,7 @@
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Diffusion을 이용한 Single image-to-3D Model 생성 연구: Mesh Export 결과를 중심으로 |
 | [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - 도안을 찾기 어려운 뜨개 입문자와 도안 커스터마이징이 필요한 뜨개 숙련자까지, 모든 뜨개인을 위한 AI 뜨개질 도안 생성 및 커뮤니티 어플리케이션 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
-| [22](#team-22) | ZIP가기 | 솔직한 감정을 표현하고자 하는 사용자를 위한 AI 기반 영상 일기 분석 및 감정 맞춤형 콘텐츠 추천 플랫폼 |
+| [22](#team-22) | ZIP가기 | 생성형 AI를 기반으로 한 자립 준비 청년을 위한 복지 정보 정리 및 맞춤형 자립 플랜 설계 서비스 |
 | [23](#team-23) | 클로버 | 개인 카페의 경쟁력 확보를 위한 선불권(금액권, 정기권) 결제 및 관리 서비스   |
 | [24](#team-24) | 대장정 | 모션 인식 기능과 챗봇을 이용한 AI 발표 도우미   |
 | [25](#team-25) | 디어리 | open AI를 이용하여 교양을 쌓고 싶은 사용자가 맞춤형 퀴즈를 풀며 나만의 교양 스크랩북을 만드는 서비스 |
