@@ -19,7 +19,7 @@
 | [16](#team-16) | RexT | 차세대 네트워크 환경인 Starlink 상에서 Tor 브라우저 트래픽 분석 및 Website Fingerprinting 공격을 통한 네트워크 취약점 탐색 |
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | AI를 이용하여 시간, 거리, 길의 취향 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 앱 개발 |
-| [19](#team-19) | JEY | 3D Gaussian Splatting과 Diffusion을 이용한 Single image-to-3D Model 개선 연구: Mesh Export 결과를 중심으로 |
+| [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
 | [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - 도안을 찾기 어려운 뜨개 입문자와 도안 커스터마이징이 필요한 뜨개 숙련자까지, 모든 뜨개인을 위한 AI 뜨개질 도안 생성 및 커뮤니티 어플리케이션 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
 | [22](#team-22) | ZIP가기 | 생성형 AI를 기반으로 한 자립 준비 청년을 위한 복지 정보 정리 및 맞춤형 자립 플랜 설계 서비스 |
@@ -318,8 +318,8 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | JEY |
-| 프로젝트명 | 3D Gaussian Splatting과 Diffusion을 이용한 Single image-to-3D Model 개선 연구: Mesh Export 결과를 중심으로 |
-| 키워드 | Gaussian Splatting, Diffusion, Computer Graphics |
+| 프로젝트명 | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
+| 키워드 | Gaussian Splatting, Latent Diffusion, Computer Graphics |
 | 무엇을 만들고자 하는가 | 제한된 사진 데이터로도 고품질 3D 모델을 생성할 수 있도록 diffusion model과 3D gaussian splatting 기술 결합 |
 | 고객 |- 학부생 게임 개발자 정일반</br>개인 촬영이나 웹서핑으로 얻은 사진 몇 장만으로 자신의 게임 3D 환경에 모델을 업로드하고 싶음.</br></br>- 3D 모델링 디자이너 이전문</br>3D 모델링 작업을 이용해 작업의 효율을 높이고 싶음.|
 | Pain Point |- 학부생 게임 개발자 정일반</br>단 한 장의 사진으로 3D 모델을 생성하고 싶지만 3D 모델링 기술은 다양한 각도의 전문적인 사진을 요구함. 또한, 너무 오랜 시간이 걸림. 오랜 시간이 걸려 3D 모델링 했는데, 제작한 모델의 용량이 너무 커서 게임에 업로드 할 수 없음. </br></br>- 모델링 디자이너 이전문</br>직접 모델링하는 것에 비해, 3D 모델링의 이점이 없음. 여러 각도로 사진 찍고, 오랜 시간을 기다려야 할 바에는 직접 모델링하는 것이 효율적임. 모델링 후에 수정할 부분도 많고, 용량도 너무 큼.|
