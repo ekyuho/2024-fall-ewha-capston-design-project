@@ -34,7 +34,7 @@
 | [31](#team-31) | 김미니 | AR 시니어 헬스댄스 : 실시간 모션캡쳐 피드백 기반 맞춤형 시니어 대상 피트니스 서비스 |
 | [32](#team-32) | 홈런볼 | 영양제로 건강 관리를 시작하는 20대 대학생을 위해 AI를 활용한 개인 맞춤형 영양제 추천 및 복용 관리 시스템 |
 | [33](#team-33) | 아리아리 | AI NPC 입체적 역할 부여를 통해 단조로운 대화패턴을 탈피한 <변호사 VS 검사> 재판 시뮬레이션 멀티플레이 게임 |
-| [34](#team-34) | IT인 | Cross-modal Federated Learning through Multimodal Data Integration and Translation |
+| [34](#team-34) | IT인 | Cross-modal Federated Learning: Approaches to Reduce the Heterogeneity Gap through Multimodal Data Integration and Translation |
 | [35](#team-35) | 트리코드 | Chat-GPT와 벡터 데이터베이스, RAG(Retrieval-Augmented Generation) 기술을 활용하여 사용자가 제공한 데이터를 기반으로 자신과 닮은 디지털 쌍둥이를 생성하고 실시간으로 대화할 수 있는 서비스 |
 | [36](#team-36) | 해피코더 | OCR을 이용한 텍스트 인식을 통해 사용자가 보낸 메시지를 분석하여 메시지나 이미지에 개인정보가 포함된 경우 사용자의 설정값에 따라 자동 삭제 또는 숨김 처리되며, 전송 전에 팝업창을 통해 확인할 수 있는 서비스 |
 | [37](#team-37) | 코드셋 | 챗봇과의 대화를 통해 AI가 사용자 대신 하루의 일과를 요약하여 감정 상태를 중심으로 일기를 작성해주는 어플 |
@@ -575,7 +575,7 @@ Django REST framework |
 |항목|내용|
 |---|---|
 | 팀명칭 | IT인 |
-| 프로젝트명 | Cross-modal Federated Learning through Multimodal Data Integration and Translation |
+| 프로젝트명 | Cross-modal Federated Learning: Approaches to Reduce the Heterogeneity Gap through Multimodal Data Integration and Translation |
 | 키워드 | Multimodal Deep Learning, Federated Learning, Cross-modal deep learning, Modality Translation |
 | 무엇을 만들고자 하는가 |  “클라이언트마다 서로 다른 데이터 모달리티가 존재할 때, 중앙 서버가 이러한 데이터를 효과적으로 통합해 학습하는 연합학습 구조” 를 디자인하고자 합니다. |
 | 고객 | 기존의 연합학습 연구는 homogeneous data 를 이용하여 진행되었습니다. 그래서 기존의 연합학습 시스템은 한 가지 모달리티에만 집중해 전체 데이터를 통합적으로 학습하는 데 한계가 있습니다. 하지만 현실 세계에는 다양한 모달리티의 데이터가 존재하기 때문에, 지금까지의 연구는 현실 세계를 온전히 반영하기 어렵습니다. 모달리티 간 변환 및 통합을 통해 다양한 형태의 데이터를 효과적으로 학습하는 연합학습 모델을 도입하면 더 다양한 현실 세계의 문제를 푸는 데에 있어 큰 도움이 될 것입니다.  |
