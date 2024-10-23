@@ -20,7 +20,7 @@
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | AI를 이용하여 시간, 거리, 길의 취향 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 앱 개발 |
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
-| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - 도안을 찾기 어려운 뜨개 입문자와 도안 커스터마이징이 필요한 뜨개 숙련자까지, 모든 뜨개인을 위한 AI 뜨개질 도안 생성 및 커뮤니티 어플리케이션 |
+| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
 | [22](#team-22) | ZIP가기 | RAG을 활용한 자립 준비 청년을 위한 복지 정보 및 맞춤형 자립 플랜 서비스 |
 | [23](#team-23) | 클로버 | 음성 인식 기술을 활용한 대화형 상호작용을 통해 시각장애인의 편리한 키오스크 사용을 돕는 AI 챗봇 서비스 |
