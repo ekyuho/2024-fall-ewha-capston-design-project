@@ -3,7 +3,7 @@
 |:---|:---|:---|
 | [1](#team-1) | 파브르 | 생성형 AI를 활용한 헬스 트레이너와 회원 간 스케줄 매칭 및 운동/식단 기록 서비스 |
 | [2](#team-2) | 탐탐 | 예산 설정과 지출 관리에 어려움을 겪는 사회 초년생을 위한 개인 일정 및 소비 특성 기반 밀착관리 가계부 서비스 |
-| [3](#team-3) | 쌈뽕 워리어즈 | AI 기반의 text-to-video 변환 기술을 이용하여 숏폼 컨텐츠에 익숙한 현대인의 뉴스 및 정보 소비 문제를 해결하기 위한 자동화된 뉴스 요약 숏폼 생성 시스템 |
+| [3](#team-3) | 쌈뽕 워리어즈 | KoBART와 생성형 AI에 기반하여 숏폼 콘텐츠에 익숙한 현대인의 뉴스 및 정보 소비 문제를 해결하기 위한 자동화된 뉴스 요약 숏폼 생성 시스템 |
 | [4](#team-4) | 217 더보기 | 안전 장비 사용법에 미숙한 현대인을 위한 몰입형 VR 안전 장비 교육 콘텐츠 |
 | [5](#team-5) | 무한도전  | 귀국 후 남은 외국 현금을 거리 기반 매칭을 통해 필요한 사람들에게 연결하는 AI 환전 플랫폼 |
 | [6](#team-6) | Goggle | LangChain과 RAG 기반의 AI 바둑 복기(復棋) 서비스 |
@@ -79,12 +79,12 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 쌈뽕 워리어즈 |
-| 프로젝트명 | AI 기반의 text-to-video 변환 기술을 이용하여 숏폼 컨텐츠에 익숙한 현대인의 뉴스 및 정보 소비 문제를 해결하기 위한 자동화된 뉴스 요약 숏폼 생성 시스템 |
-| 키워드 | - chatGPT<br>- text-to-video<br>- short-form 영상 생성 |
-| 무엇을 만들고자 하는가 | 저희가 개발하려고 하는 것은 Text-to-Video기술과, 생성형 AI(GPT-4)를 활용하여 자동화 파이프라인으로 특정 뉴스레터, 기사, 뉴스를 입력으로 넣은 다음, 해당 텍스트에서 추출한 핵심 키워드를 기반으로 숏폼 형식의 영상을 산출하는 서비스입니다.  |
-| 고객 | - 이름 : 한민지<br>- 나이 : 32세<br>- 성별 : 여자<br>- 직업 : IT 회사의 대리<br>- 성격 :  내향적이고 수동적인 성격을 가지고 있음.<br><br>- 라이프스타일<br>    - 회사 집 회사 집을 반복하며, 개인 시간이 충분하지 않음.<br>    - 긴 영상이나 글을 읽을 여유가 없어 주로 숏폼 컨텐츠를 즐김.<br><br>- 필요와 요구<br>    - 시사 상식 향상을 필요로 함<br>    - 짧은 시간 안에 큰 노력 없이 간결한 정보를 얻고 싶어함<br><br>- 자주 사용하는 서비스<br>    - 유튜브 숏츠, 인스타그램 릴스(짧고 재미있는 영상 시청)<br><br>- 관심분야<br>    - 과학기술, 정치 |
+| 프로젝트명 | KoBART와 생성형 AI에 기반하여 숏폼 콘텐츠에 익숙한 현대인의 뉴스 및 정보 소비 문제를 해결하기 위한 자동화된 뉴스 요약 숏폼 생성 시스템 |
+| 키워드 | - KoBART<br>- text-to-video<br>- short-form 영상 생성 |
+| 무엇을 만들고자 하는가 | 저희가 개발하려고 하는 것은 텍스트 요약 및 생성 모델과 Text-to-Video기술을 활용하여 자동화 파이프라인으로 특정 뉴스레터, 기사, 뉴스를 입력으로 넣은 다음, 해당 텍스트에서 추출한 핵심 키워드를 기반으로 숏폼 형식의 영상을 산출하는 서비스입니다.  |
+| 고객 | - 이름 : 한민지<br>- 나이 : 32세<br>- 성별 : 여자<br>- 직업 : 회사원<br>- 성격 :  내향적이고 수동적인 성격을 가지고 있음.<br><br>- 라이프스타일<br>    - 회사 집 회사 집을 반복하며, 개인 시간이 충분하지 않음.<br>    - 긴 영상이나 글을 읽을 여유가 없어 주로 숏폼 컨텐츠를 즐김.<br><br>- 필요와 요구<br>    - 시사 상식 향상을 필요로 함<br>    - 짧은 시간 안에 큰 노력 없이 간결한 정보를 얻고 싶어함<br><br>- 자주 사용하는 서비스<br>    - 유튜브 숏츠, 인스타그램 릴스(짧고 재미있는 영상 시청)<br><br> |
 | Pain Point | - 기존 영상 플랫폼을 통해 숏폼 컨텐츠를 즐기면 평소에 보는 특정 주제에 편향된 영상들만 계속 접하게 됨<br><br>- 진위 여부가 판별되지 않는 자극적인 뉴스를 소비하게 됨<br><br>- 현대인이 뉴스, 뉴스레터 등 긴 글에 담긴 이슈/정보들을 소비하지 않아서 정보 소외를 느낌 |
-| 솔루션 | [AI]<br><br>GPT4 (openAI) - https://platform.openai.com/docs/guides/text-generation<br>T5 - https://github.com/google-research/t5x<br>NeuralSpeech - https://github.com/microsoft/NeuralSpeech<br>Wav2Lip - https://github.com/Rudrabha/Wav2Lip<br><br>[Frontend]<br><br>React Native - https://reactnative.dev/<br>TypeScript - https://www.typescriptlang.org/<br><br>[Backend]<br><br>Spring Boot - https://spring.io/projects/spring-boot<br>AWS EC2 - https://aws.amazon.com/ko/ec2/<br>AWS S3 - https://aws.amazon.com/ko/s3/ |
+| 솔루션 | [AI]<br><br>KoBART - https://github.com/SKT-AI/KoBART<br>Stable-Diffusion - https://stability.ai/stable-image<br>TextToVideo-Zero - https://github.com/Picsart-AI-Research/Text2Video-Zero<br>BeautifulSoup - https://www.crummy.com/software/BeautifulSoup/bs4/doc/<br>RecBole - https://github.com/RUCAIBox/RecBole<br><br>[Frontend]<br><br>React Native - https://reactnative.dev/<br>TypeScript - https://www.typescriptlang.org/<br><br>[Backend]<br><br>Spring Boot - https://spring.io/projects/spring-boot<br>AWS EC2 - https://aws.amazon.com/ko/ec2/<br>AWS S3 - https://aws.amazon.com/ko/s3/<br>Docker - https://www.docker.com/ |
 | 오래 축적한 데이타의 잠재적 가치 | - 사람들이 주로 보고 싶어 하는 뉴스 유형(정치, 범죄, 연예 등)의 비율을 알 수 있게 되고, 현대인들이 어떠한 사회 현상와 가치에 관심이 있는지 파악할 수 있게 되어 이를 겨냥한 추가적인 상품이나 광고 서비스 등을 런칭할 수 있음.<br><br>- 연령대별, 성별 뉴스 유형의 관심도 데이터가 축적되어 고객의 특성에 맞는 뉴스를 추천하는 서비스를 추가로 런칭할 수 있음. |
 | 기대성과 | - 많은 사람들이 사회 이슈를 쉽고 빠르게, 그리고 간략하게 접할 수 있어 짧은 시간 안에도 쉽게 정보를 얻음에 따라 사회 내 정보 소외를 완화할 수 있음.<br><br>- 과장되거나 편파적인 뉴스가 아닌 객관적인 사실만 접하게 되면서 미디어 리터러시 능력을 향상할 수 있고, 객관적인 시야를 가질 수 있음. |
 | 팀 그라운드룰 | https://github.com/SSambbongWarriors/2024-fall-ewha-capston-design/blob/main/ground_rule.md |
