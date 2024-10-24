@@ -500,15 +500,16 @@ Django REST framework |
 |항목|내용|
 |---|---|
 | 팀명칭 | 컴세마리 |
-| 프로젝트명 | 바쁜 일상 속 현대인의 여가 시간 고민을 줄여주는 일정 & 취향 맞춤형 여가 추천 AI 서비스 |
+| 프로젝트명 | 바쁜 일상 속 현대인의 여가 시간 고민을 줄여주는 일정 & 취향 맞춤형 여가 추천 서비스 |
 | 키워드 | AI, 공공 데이터, 맞춤형 여가 추천 |
 | 무엇을 만들고자 하는가 | 사용자의 위치와 일정, 그리고 취향을 분석해 빈 시간에 맞는 최적의 여가 활동을 제안하고, 최신 영화, 공연, 전시 등 다양한 정보를 한 곳에서 조회할 수 있는 통합 플랫폼을 제공하는 AI 기반 개인 맞춤형 서비스입니다. |
 | 고객 | IT 계열 회사에 다니는 30대 초반 미혼 여성 개발자 김이화. 업무로 인해 평일 근무시간에 매우 바쁘고, 주로 평일 저녁이나 주말에 혼자 영화나 뮤지컬을 관람하며 여가 시간을 보냅니다. 계획적인 성격이고, 서울에서 혼자 거주 중입니다. |
-| Pain Point | 어떤 종류의 여가 활동을 즐길지 결정을 내리지 못하여 시간을 허비하는 경우가 있습니다. 또한, 사용자와 위치와 일정에 맞는 최적의 활동을 찾기 어렵다는 문제가 있습니다. |
-| 솔루션 | [FE]<br>- Language : JavaScript<br>- Library : React native https://reactnative.dev/<br><br>[BE]<br>- Language : JAVA https://www.java.com/<br>- Framework : Spring [https://spring.io](https://spring.io/)<br>- DB : MySQL https://www.mysql.com/<br><br>[API]<br>- 구글 캘린더 API  https://developers.google.com/calendar/api/guides/overview?hl=ko<br>- 네이버 지도API  [Maps - Application Services - NAVER Cloud Platform 네이버 클라우드 플랫폼 (ncloud.com)](https://www.ncloud.com/product/applicationService/maps#overview)<br><br>[Data]<br>- 영화 상영 정보 API (영화진흥위원회): https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do<br>- 공연전시 정보 API (한국문화정보원): https://www.data.go.kr/data/15000120/openapi.do<br>- KOPIS 공연예술통합전산망:  https://www.kopis.or.kr/por/cs/openapi/openApiInfo.do?menuId=MNU_00074<br><br>[AI algorithm]<br>- 추천 알고리즘 : surprise library https://github.com/NicolasHug/Surprise |
+| Pain Point | 어떤 종류의 영화를 관람할지 결정을 내리지 못하여 시간을 허비하는 경우가 있습니다. 또한, 사용자와 위치와 일정에 맞는 최적의 영화관을 찾기 어렵다는 문제가 있습니다. |
+| 솔루션 | [FE]<br>- Language : CSS, Html, JavaScript<br>- Library : React native https://reactnative.dev/<br><br>[BE]<br>- Language : JAVA https://www.java.com/<br>- Framework : Spring [https://spring.io](https://spring.io/)<br>- DB : MySQL https://www.mysql.com/<br><br>[API]<br>- 구글 캘린더 API  https://developers.google.com/calendar/api/guides/overview?hl=ko<br>- 네이버 지도API  [Maps - Application Services - NAVER Cloud Platform 네이버 클라우드 플랫폼 (ncloud.com)](https://www.ncloud.com/product/applicationService/maps#overview)<br><br>[Data]<br>- 영화 상영 정보 API (영화진흥위원회): https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do<br>- 공연전시 정보 API (한국문화정보원): https://www.data.go.kr/data/15000120/openapi.do<br>- KOPIS 공연예술통합전산망:  https://www.kopis.or.kr/por/cs/openapi/openApiInfo.do?menuId=MNU_00074<br><br>[AI algorithm]<br>- 추천 알고리즘 : surprise library https://github.com/NicolasHug/Surprise, light fm library https://github.com/lyst/lightfm |
 | 오래 축적한 데이타의 잠재적 가치 | 다양한 성별과 연령대의 사용자 데이터가 축적되어 있을 것이고, 이를 통해 특정 계층의 선호도를 분석하여 추천 알고리즘의 정확도를 높일 수 있습니다. <br>사용자가 남긴 평가를 기반으로 사용자의 취향에 맞는 여가 활동, 맞지 않는 여가 활동의 데이터가 축적되어 있을 것이고, 해당 데이터를 통해서 아직 사용자 정보가 없는 새로운 활동에서 사용자의 선호도, 추천 받은 여가 활동을 실행에 옮길 지 여부를 예측해볼 수 있습니다.<br>많은 사용자들의 평가 데이터가 축적되어 있을 것이고, 이를 이용해 사용자와 유사한 취향을 가진 사용자가 높은 선호를 보였던 여가 활동을 추천해 긍정적인 경험을 기대해 볼 수 있습니다.  |
 | 기대성과 | 여가 활동의 소비자가 늘어나고, 여가 산업의 규모가 커져 더욱 다채로운 예술 문화를 누릴 수 있게 될 것입니다.<br>많은 사람들이 여가를 효율적으로 즐기면서 스트레스를 해소할 수 있습니다. <br>사용자의 취향, 위치, 일정에 따라 여가 활동을 추천하기 때문에, 주류 독점적 특성을 가진 공연 예술 분야에서 비주류 여가 활동도 알려지는 기회가 될 것입니다. |
 | 팀 그라운드룰 | https://github.com/dxxrjh/2024-capston/blob/main/GROUND_RULES.md |
+
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 30
