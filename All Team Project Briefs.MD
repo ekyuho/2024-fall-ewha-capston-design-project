@@ -5,7 +5,7 @@
 | [2](#team-2) | 탐탐 | 예산 설정과 지출 관리에 어려움을 겪는 사회 초년생을 위한 개인 일정 및 소비 특성 기반 밀착관리 가계부 서비스 |
 | [3](#team-3) | 쌈뽕 워리어즈 | KoBART와 생성형 AI에 기반하여 숏폼 콘텐츠에 익숙한 현대인의 뉴스 및 정보 소비 문제를 해결하기 위한 자동화된 뉴스 요약 숏폼 생성 시스템 |
 | [4](#team-4) | 217 더보기 | 안전 장비 사용법에 미숙한 현대인을 위한 몰입형 VR 안전 장비 교육 콘텐츠 : 완강기 |
-| [5](#team-5) | 무한도전  | 귀국 후 남은 외국 현금을 거리 기반 매칭을 통해 필요한 사람들에게 연결하는 AI 환전 플랫폼 |
+| [5](#team-5) | 무한도전  | 카메라 인식과 거리 기반 매칭을 통해 집에서 잠자고 있는 외화를 간편하게 환전할 수 있는 P2P 환전 플랫폼 |
 | [6](#team-6) | Goggle | LangChain과 RAG 기반의 AI 바둑 복기(復棋) 서비스 |
 | [7](#team-7) | 테스파 | Advancing Continual Decentralized Learning Through Selective Knowledge Transfer Across Diverse Modalities: 1:N Approach |
 | [8](#team-8) | eiai | NPU Aware Transformer for Edge AI and Green AI |
