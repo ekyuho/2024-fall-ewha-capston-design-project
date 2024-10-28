@@ -183,36 +183,9 @@
 | 프로젝트명 | 의약품 처방,구입 내역에 기반한 건강 취약점 보완 영양제 솔루션 생성 및 숏폼 추천 서비스 |
 | 키워드 | OCR, 맞춤형 추천, 의약품 복용 관리 |
 | 무엇을 만들고자 하는가 | 사용자가 처방받은 약 봉투 또는 약국에서 구매한 일반의약품의 포장을 OCR로 스캔하여 데이터베이스화 함. 얻은 데이터에 근거하여 영양제를 추천해주는 방식으로 건강을 보완해주고, 관심을 가질만하거나 도움이 될 만한 건강 관련 유튜브 쇼츠를 추천해주는 기능을 제공하는 서비스를 만들고자 함. |
-| 고객 | 이름: 최민규<br> 나이와 직업: 34세, 회사원<br>
-주요 특징:<br>
-병원을 자주 찾을 여유가 없어 불편한 증상은 편의점이나 약국에서 쉽게 구할 수 있는 시중 약을 복용하여 해결하려고 함.<br>
-본인에게 효과가 있는 약과 효과가 없는 약을 제대로 기록하지 못해, 약을 새로 구입할 때 항상 같은 증상을 해소하지 못하는 약을 찾는 데 실패하는 경우가 많음.<br>
-시간이 날 때마다 소화불량과 두통을 겪으며 시간과 비용을 낭비함. |
-| Pain Point |자주 두통과 소화불량을 겪지만, 병원을 자주 방문할 여유가 없어 약국에서 쉽게 구할 수 있는 약으로 해결하려고 하나, 효과가 미미함.<br>
-자신에게 효과적인 약과 그렇지 않은 약을 기억하지 못해, 반복적으로 효과 없는 약을 구매하게 되어 시간과 비용이 낭비됨.<br>
-체계적인 건강 관리와 복용 기록이 없어, 본인의 건강 상태에 맞는 영양제 추천과 같은 맞춤형 건강 관리를 받기 어려움.<br>
-건강에 대한 정보가 체계적으로 제공되지 않아, 본인이 겪는 건강 문제에 대한 예방과 관리에 어려움이 있음.<br> |
-| 솔루션 |프론트엔드:<br>
-- [React Native](https://reactnative.dev/)<br>
-- [TypeScript](https://www.typescriptlang.org/)<br>
-백엔드:<br>
-- [Node.js](https://nodejs.org/) + [Express](https://expressjs.com/)<br>
-- [AWS EC2](https://aws.amazon.com/ko/ec2)<br>
-데이터 처리 및 AI:<br>
-- [OpenAI GPT-4 Turbo](https://openai.com/index/openai-api)<br>
-- [Pandas](https://pandas.pydata.org/)<br>
-- [Matplotlib](https://matplotlib.org/)<br>
-데이터베이스:<br>
-- [MongoDB](https://www.mongodb.com/)<br>
-- [Redis](https://redis.io/)<br>
-API:<br>
-- [YouTube Data API](https://developers.google.com/youtube/v3)<br>
-- [Naver CLOVA OCR](https://www.ncloud.com/product/aiService/ocr)<br>
-협업 및 관리:<br>
-- Git<br>
-- GitHub<br>
-- Notion<br>
- |
+| 고객 | 이름: 최민규<br> 나이와 직업: 34세, 회사원<br>주요 특징:<br>병원을 자주 찾을 여유가 없어 불편한 증상은 편의점이나 약국에서 쉽게 구할 수 있는 시중 약을 복용하여 해결하려고 함.<br>본인에게 효과가 있는 약과 효과가 없는 약을 제대로 기록하지 못해, 약을 새로 구입할 때 항상 같은 증상을 해소하지 못하는 약을 찾는 데 실패하는 경우가 많음.<br>시간이 날 때마다 소화불량과 두통을 겪으며 시간과 비용을 낭비함. |
+| Pain Point |자주 두통과 소화불량을 겪지만, 병원을 자주 방문할 여유가 없어 약국에서 쉽게 구할 수 있는 약으로 해결하려고 하나, 효과가 미미함.<br>자신에게 효과적인 약과 그렇지 않은 약을 기억하지 못해, 반복적으로 효과 없는 약을 구매하게 되어 시간과 비용이 낭비됨.<br>체계적인 건강 관리와 복용 기록이 없어, 본인의 건강 상태에 맞는 영양제 추천과 같은 맞춤형 건강 관리를 받기 어려움.<br>건강에 대한 정보가 체계적으로 제공되지 않아, 본인이 겪는 건강 문제에 대한 예방과 관리에 어려움이 있음.<br> |
+| 솔루션 |프론트엔드:<br>- [React Native](https://reactnative.dev/)<br>- [TypeScript](https://www.typescriptlang.org/)<br>백엔드:<br>- [Node.js](https://nodejs.org/) + [Express](https://expressjs.com/)<br>- [AWS EC2](https://aws.amazon.com/ko/ec2)<br>데이터 처리 및 AI:<br>- [OpenAI GPT-4 Turbo](https://openai.com/index/openai-api)<br>- [Pandas](https://pandas.pydata.org/)<br>- [Matplotlib](https://matplotlib.org/)<br>데이터베이스:<br>- [MongoDB](https://www.mongodb.com/)<br>- [Redis](https://redis.io/)<br>API:<br>- [YouTube Data API](https://developers.google.com/youtube/v3)<br>- [Naver CLOVA OCR](https://www.ncloud.com/product/aiService/ocr)<br>협업 및 관리:<br>- Git<br>- GitHub<br>- Notion<br>|
 | 오래 축적한 데이타의 잠재적 가치 | 의약품 복용 이력과 건강 데이터를 기반으로 맞춤형 영양제 추천과 생활 습관 개선 정보를 제공할 수 있다. <br> 사용자 개인의 약물 및 건강 기록을 분석하여 장기적으로 건강에 유익한 습관이나 경향을 제시할 수 있으며, 이를 통해 건강 관리에 대한 의사결정을 더욱 효과적으로 지원한다. <br> 축적된 데이터를 익명화하여 집단 건강 데이터를 분석함으로써, 공공 건강을 개선하는 데 기여할 수 있다. |
 | 기대성과 | - 사용자가 체계적으로 의약품 복용 이력과 건강 상태를 관리함으로써, 자신의 건강 취약점을 이해하고 이에 맞춘 영양제와 건강 관리 팁을 효과적으로 활용할 수 있다. <br> - OCR 기술을 활용하여 처방약 봉투를 자동으로 인식하고 기록함으로써, 사용자는 간편하게 복약 이력을 관리하고 필요 시 쉽게 조회할 수 있어 건강 관리의 편의성이 높아진다. <br> - 사용자가 지속적으로 앱을 사용하고 자신의 건강 관리에 관심을 갖도록 유도할 수 있다. |
 | 팀 그라운드룰 | https://github.com/Jppin/capstone-design/blob/main/GroundRule.md |
