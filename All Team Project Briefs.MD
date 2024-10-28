@@ -281,17 +281,17 @@
 
   [Return Top](#전체-프로젝트-리스트)
 ## Team 16
-|항목|내용|
-|---|---|
+| 항목 | 내용 |
+| --- | --- |
 | 팀명칭 | RexT |
-| 프로젝트명 | 차세대 네트워크 환경인 Starlink 상에서 Tor 브라우저 트래픽 분석 및 Website Fingerprinting 공격을 통한 네트워크 취약점 탐색 |
+| 프로젝트명 | 위성인터넷 해킹을 통한 프라이버시 유출 방지를 위한 Fingerprinting 기법을 활용한 Starlink 네트워크 취약점 분석 |
 | 키워드 | Starlink Network, AI for security, Website Fingerprinting |
-| 무엇을 만들고자 하는가 | 저궤도 인공위성 네트워크인 Starlink와 익명 네트워크 Tor에서 발생하는 트래픽을 분석하고, 사용자가 특정 웹사이트에 접속했는지를 추적할 수 있는 Website Fingerprinting 공격 기법을 Starlink에 적용해 보안 취약점을 탐색하고, 유사한 보안 공격에 대비할 수 있는 방어 기법을 제시함. |
-| 고객 | - 타겟 사용자 : 기존 네트워크 인프라가 발전하지 않은 지역의 사용자들과 더 빠른 인터넷을 원하는 사용자들, 나아가 6G 시대에 보편적으로 도입될 위성 인터넷을 사용하게 될 전 세계 사용자들<br>- 사용 시점: 위성 인터넷을 통해 사용자가 웹사이트에 접속할 때<br>- 문제의 구체성 : Website Fingerprinting 공격으로 인해 인터넷 사용자의 웹사이트 접속 기록이 자신이 모르는 사이에 유출될 수 있다는 문제가 있음 |
-| Pain Point | Website Fingerprinting 공격을 통해 사용자가 접속하는 웹사이트를 추적하면, 정치 성향이나 질병 정보와 같은 민감한 개인 정보가 유출될 수 있다. 이에 반해 현재 Starlink 상에서 Website Fingerprinting는 선행연구가 진행된 바 없으며, 이로 인해 Starlink를 포함한 전반적인 네트워크의 프라이버시 문제가 급부상하고 있다. 이러한 상황에서 Starlink를 통한 위성 인터넷이 보급된다면 많은 보안 이슈가 생길 것이다.  |
-| 솔루션 | - Website Fingerprinting<br>- Mutual Information Analyzer<br>- Feature Analysis<br>- Deep Learning (CNN, DNN, RNN) |
-| 오래 축적한 데이타의 잠재적 가치 | 현재 Starlink 네트워크 상에서 Website Fingerprinting을 위한 데이터 수집은 거의 이뤄지지 않고 있다. 앞으로 6G 시대에 보편적으로 도입될 위성 인터넷을 사용한 데이터 수집이 활발하게 이루어진다면, 대량의 데이터를 바탕으로 다양한 Website Fingerprinting 공격 시나리오를 만들어 여러 실험을 진행할 수 있을 것이다. 이를 통해 보다 더욱 현실적이고 좋은 성능을 내는 Website Fingerprinting 공격 모델과 이에 대응하는 보안 솔루션을 제안할 수 있을 것으로 예상한다.  |
-| 기대성과 | 이번 프로젝트에서는 Starlink 네트워크 상의 새로운 Website Fingerprinting 공격 기법을 개발하여 위성 통신의 보안 취약점을 탐색하고, 이를 보완할 수 있는 방어 기법까지 제시한다. <br><br>이를 통해, Starlink를 포함한 저궤도 인공위성 네트워크 서비스의 보안 솔루션을 제공하고, 앞으로 6G 시대의 도래와 함께 상용화될 인공위성 네트워크와 Starlink 보안 분야 연구의 초석이 될 것으로 기대한다. |
+| 무엇을 만들고자 하는가 | 저궤도 인공위성 네트워크인 Starlink에서 발생하는 트래픽을 분석하여, 사용자가 특정 웹사이트에 접속했는지 추적할 수 있는 Fingerprinting 공격 기법을 Starlink에 적용해 보안 취약점을 탐색하고, 유사한 보안 공격에 대비할 수 있는 방어 기법을 제시함. |
+| 고객 | - 타겟 사용자 : 기존 네트워크 인프라가 발전하지 않은 지역의 사용자들과 더 빠른 인터넷을 원하는 사용자들, 나아가 6G 시대에 보편적으로 도입될 위성 인터넷을 사용하게 될 전 세계 사용자들<br>- 사용 시점: 위성 인터넷을 통해 사용자가 웹사이트에 접속할 때<br>- 문제의 구체성 : Fingerprinting 공격으로 인해 인터넷 사용자의 웹사이트 접속 기록을 비롯해 유저의 프라이버시가 자신도 모르는 사이에 유출될 수 있다는 문제가 있음 |
+| Pain Point | Fingerprinting 공격을 통해 사용자가 접속하는 웹사이트를 추적하면, 정치 성향이나 질병 정보, 금융 정보 등과 같은 민감한 개인 정보가 유출될 수 있다. Starlink를 포함한 전반적인 네트워크의 프라이버시 문제가 급부상하고 있는 반면, 현재 Starlink를 타깃으로 한 Fingerprinting는 선행 연구가 진행된 바가 없다. 이러한 상황에서 Starlink를 통한 위성 인터넷이 보급된다면 거대 보안 이슈가 발생할 수 있다. |
+| 솔루션 | - Website Fingerprinting<br>- Mutual Information Analyzer<br>- Feature Analysis<br>- Deep Learning: ResNet, GPT, GAN, etc. |
+| 오래 축적한 데이타의 잠재적 가치 | 현재 Starlink 네트워크 상에서 Fingerprinting을 위한 데이터 수집은 거의 이뤄지지 않고 있다. 앞으로 6G 시대에 보편적으로 도입될 위성 인터넷을 사용한 데이터 수집이 활발하게 이루어진다면, 대량의 데이터를 바탕으로 다양한 Fingerprinting 공격 시나리오를 만들어 여러 실험을 진행할 수 있을 것이다. 이를 통해 보다 더욱 현실적이고 좋은 성능을 내는 Fingerprinting 공격 모델과 이에 대응하는 보안 솔루션을 제안할 수 있을 것으로 예상한다. |
+| 기대성과 | 이번 프로젝트에서는 Starlink 네트워크 상의 새로운 Fingerprinting 공격 기법을 개발하여 위성 통신의 보안 취약점을 탐색하고, 추후 추가 연구를 통해 이를 보완할 수 있는 방어 기법을 제시한다. <br><br>이를 통해, Starlink를 포함한 위성인터넷 서비스의 보안 솔루션을 제공하고, 앞으로 6G 시대의 도래와 함께 상용화될 인공위성 네트워크와 Starlink 보안 분야 연구의 초석이 될 것으로 기대한다. |
 | 팀 그라운드룰 | https://github.com/Capstone-RexT/Documents/blob/main/Ground_Rule.MD |
 
   [Return Top](#전체-프로젝트-리스트)
