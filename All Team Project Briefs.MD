@@ -18,7 +18,7 @@
 | [15](#team-15) | SSB | TheraTalk |
 | [16](#team-16) | RexT | 차세대 네트워크 환경인 Starlink 상에서 Tor 브라우저 트래픽 분석 및 Website Fingerprinting 공격을 통한 네트워크 취약점 탐색 |
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
-| [18](#team-18) | 코드의 정상화 | AI를 이용하여 시간, 거리, 길의 취향 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 앱 개발 |
+| [18](#team-18) | 코드의 정상화 | KNN를 이용하여 시간(or 거리), 길의 경사 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 서비스 개발 |
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
 | [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
@@ -303,9 +303,9 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 코드의 정상화 |
-| 프로젝트명 | AI를 이용하여 시간, 거리, 길의 경사 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 앱 개발 |
+| 프로젝트명 | KNN를 이용하여 시간(or 거리), 길의 경사 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 서비스 개발 |
 | 키워드 | 경로추천, scikit learn, GraphHopper |
-| 무엇을 만들고자 하는가 | 사용자가 출발지와 목적지, 시간 또는 거리, 길의 경사를 선택하면 AI가 길의 정보를 실시간으로 반영하여 러닝 경로를 추천하고 사용자 피드백을 통해 추천 경로를 개선함 |
+| 무엇을 만들고자 하는가 | 사용자가 출발지와 목적지, 시간 (or 거리), 길의 경사를 선택하면 AI가 길의 정보를 실시간으로 반영하여 러닝 경로를 추천하고 사용자 피드백을 통해 추천 경로를 개선함 |
 | 고객 | 20대 여성, 대학생, 지방에서 서울로 대학교 진학, 주변 지리를 잘 모름, 러닝 경로를 추천받고 싶음 |
 | Pain Point | 러닝을 하고 싶지만 길을 잘 몰라 직접 돌아다니며 거리와 시간 등을 확인해야 함 |
 | 솔루션 | React Native<br>Django<br>Python<br>PostgreSQL<br>GraphHopper<br>Scikit-Learn |
