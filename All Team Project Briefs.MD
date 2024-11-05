@@ -16,7 +16,7 @@
 | [13](#team-13) | tripleJ | 외국인 유학생을 위한 KoBERT 모델 기반 맞춤형 채용 공고 추천 서비스 |
 | [14](#team-14) | 고속도로위 | 비전공자 혹은 비전공자를 대상으로 한 교육자를 위한 노코드 기반 AI 모델 생성 서비스 |
 | [15](#team-15) | SSB | TheraTalk |
-| [16](#team-16) | RexT | 차세대 네트워크 환경인 Starlink 상에서 Tor 브라우저 트래픽 분석 및 Website Fingerprinting 공격을 통한 네트워크 취약점 탐색 |
+| [16](#team-16) | RexT | 위성인터넷 해킹을 통한 프라이버시 유출 방지를 위한 Fingerprinting 기법을 활용한 Starlink 네트워크 취약점 분석 |
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | KNN를 이용하여 시간(or 거리), 길의 경사 선택을 통한 러닝경로 추천을 받고싶은 사용자들을 위한 맞춤형 추천 서비스 개발 |
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
