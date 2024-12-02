@@ -20,7 +20,7 @@
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | 거리와 길의 경사 선택, 사용자 피드백을 반영해 개인 맞춤형 러닝 경로를 추천하는 서비스 |
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
-| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
+| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - Image Segmentation(DeepLab&Unet), GAN Pix2Pix를 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
 | [22](#team-22) | ZIP가기 | RAG 기반의 자립 준비 청년을 위한 신뢰성 있는 최신 복지 정보 및 맞춤형 자립 플랜 서비스 |
 | [23](#team-23) | 클로버 | 음성 인식과 생성형 AI를 활용하여 대화형 주문 및 매장 문의를 처리하는 고객 응대 챗봇 |
@@ -333,7 +333,7 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 뜨개걸즈 |
-| 프로젝트명 | GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
+| 프로젝트명 | Image Segmentation(DeepLab&Unet), GAN Pix2Pix를 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | 키워드 | Image segmentation(Unet. DeepLabV3), GAN Pix2Pix, Deep Dream |
 | 무엇을 만들고자 하는가 | 뜨개질 입문자부터 숙련자까지 모든 뜨개인을 위한 AI 뜨개질 도안 생성 및 커뮤니티 어플리케이션 |
 | 고객 | 연령 무관, 직업 무관, 주로 여성의 뜨개질 취미로 하고 있는 입문자 및 숙련자<br><br><입문자><br>- 원하는 도안을 찾기 어렵고, 도안 읽는 법에 익숙하지 않은 뜨개질 입문자<br>- 어디가 틀렸는지 알 수 없어 물어볼 사람이 필요한 입문자<br><br><숙련자><br>- 도안을 자신이 원하는 무늬로 커스텀하고 싶은 뜨개질 숙련자<br>- 도안을 자신의 사이즈에 맞게 편집하고 싶은 뜨개질 숙련자<br><br><공통><br>- 자신의 작품과 도안을 공유하고 싶은 모든 뜨개인 |
