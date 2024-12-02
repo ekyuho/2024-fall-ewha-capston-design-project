@@ -20,7 +20,7 @@
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대을 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | 거리와 길의 경사 선택, 사용자 피드백을 반영해 개인 맞춤형 러닝 경로를 추천하는 서비스 |
 | [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
-| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
+| [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - Image Segmentation(DeepLab&Unet), GAN Pix2Pix를 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
 | [22](#team-22) | ZIP가기 | RAG 기반의 자립 준비 청년을 위한 신뢰성 있는 최신 복지 정보 및 맞춤형 자립 플랜 서비스 |
 | [23](#team-23) | 클로버 | 음성 인식과 생성형 AI를 활용하여 대화형 주문 및 매장 문의를 처리하는 고객 응대 챗봇 |
@@ -159,7 +159,7 @@
 | 무엇을 만들고자 하는가 | 인공지능 처리에 최적화된 NPU칩의 구조에서 최적의 Transformer model을 찾아내는 NAS 기법 연구 |
 | 고객 | ChatGPT의 등장으로 인공지능 기술은 우리 일상 속에 깊숙이 자리잡았다. 데이터 센터에서 수많은 반도체를 활용하는, 공급자 중심의 클라우드 기반 AI는 우리에게 많은 기회를 제공하지만 동시에 보안, 응답지연, 유지비용과 같은 해결해야 할 문제들도 동반하고 있다. <br>이러한 문제를 해결하기 위해 중앙 클라우드에 대한 의존도를 줄이는 엣지 AI가 주목받고 있다.  <br>하지만 현재 딥러닝 모델의 학습과 추론과정에서는 모델의 크기와 연산량 증가 문제가 심화되고 있으며 이에 대한 해결이 필요하다.  <br>따라서 본 연구에서는 대규모 NLP 인공지능을 사용하는 기업이나 엣지 디바이스에서 LLM 사용을 원하는 일반 유저를 위해 엣지 AI를 실현할 수 있도록, 엣지 환경의 제한된 연산 능력과 메모리 및 전력 하에서 합리적인 모델의 탐색을 통한 경량화 기법을 연구하고자 한다. |
 | Pain Point | 딥러닝 모델은 좋은 성능을 가지고 있지만 많은 메모리 공간과 연산량을 필요로 하기 때문에 하드웨어적인 제한이 발생한다. 고도의 컴퓨팅, 메모리 자원이 요구된다는 본질적인 문제는 두 가지 문제를 발생시킨다. <br>첫째, 기업 차원에서 인공지능 모델을 활용하기 위해서는 심각한 에너지 소모와 컴퓨팅 자원의 구비를 감당해야만 한다. 이는 경제적 문제를 야기할 뿐만 아니라, 환경 규제의 제약 또한 적용되어 거대 인공지능 모델의 활용을 어렵게 만든다. <br>둘째, 거대 인공지능 모델은 본질적으로 자원이 부족한 엣지 디바이스에서의 활용이 어렵게 한다. 따라서 사용자에게 제공되는 인공지능 모델은 클라우드 모델을 통하게 되는데, 이 점에서 보안을 보장받기 어렵다. 즉 보안과 정확한 모델 사용 가능성 사이의 trade-off가 발생하는 것이다. |
-| 솔루션 | **NPU**  <br>ROCK Pi 5B Model - Rockchip RK3588 ARM SoC Single Board Computer  <br>**OS**  <br>Ubuntu 22.04 (LTS x64 aarch64)  <br>Debian (Radxa Rock 5B image)  <br>**Model**  <br>Transformer  <br>**Collaboration tools**  <br> Git/GitHub  <br>**etc**  <br>python==3.9  <br>rknn-toolkit2==2.3.0  <br>rknn-toolkit-lite2==1.5.0  <br>flatbuffers==24.3.25    <br>numpy==1.26.4  <br>onnx==1.14.1  <br>onnxoptimizer==0.2.7  <br>onnxruntime==1.16  <br>opencv-python==4.10.0.84  <br>protobuf==3.20.3  <br>psutil==6.1.0  <br>scipy==1.13.1  <br>sympy==1.13.3  <br>torch==1.8.0  <br>torchvision==0.9.1  <br>scikit_image==0.21.0  <br>tensorflow==2.10.0  <br>tensorboard==2.10.0|
+| 솔루션 | Python 3.6/3.8<br>NPU: ROCK Pi 5B Model - Rockchip RK3588 ARM SoC Single Board Computer<br>OS: Ubuntu 18.04 (x64) or later<br>Model: Transformer<br>Git/GitHub<br> |
 | 오래 축적한 데이타의 잠재적 가치 | 실험 진행에 따라 NPU 구조에 적합한 Transformer model의 양상 데이터, NPU 구조에서 특이성을 보이는 layer에 대한 데이터를 얻어낼 수 있다. 이는 추후 다른 모델을 NPU에서 최적화하는 경우나 실험에 사용된 것 이외의 Transformer 모델을 경량화하는 데에도 활용될 수 있을 것이라 전망된다.  |
 | 기대성과 | NPU구조에 최적화 및 경량화된 Transformer 모델의 개발은 엣지 디바이스 환경에서도 딥러닝 모델이 효율적으로 동작할 수 있도록 한다.  이는 기존의 클라우드 AI가 가지고 있었던 에너지 소비 문제, 보안 문제 등을 해결하여 기업의 경제적 부담을 완화하며 보안을 강화한다. 또한, 향후 다른 모델 최적화에 활용될 수 있어, 다양한 산업에서 엣지 AI가 응용될 가능성을 확대할 것이다.  |
 | 팀 그라운드룰 | https://github.com/ei-ai/eiai/blob/main/GroundRules.md |
@@ -333,7 +333,7 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | 뜨개걸즈 |
-| 프로젝트명 | GAN Pix2Pix & Deep Dream을 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
+| 프로젝트명 | Image Segmentation(DeepLab&Unet), GAN Pix2Pix를 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | 키워드 | Image segmentation(Unet. DeepLabV3), GAN Pix2Pix, Deep Dream |
 | 무엇을 만들고자 하는가 | 뜨개질 입문자부터 숙련자까지 모든 뜨개인을 위한 AI 뜨개질 도안 생성 및 커뮤니티 어플리케이션 |
 | 고객 | 연령 무관, 직업 무관, 주로 여성의 뜨개질 취미로 하고 있는 입문자 및 숙련자<br><br><입문자><br>- 원하는 도안을 찾기 어렵고, 도안 읽는 법에 익숙하지 않은 뜨개질 입문자<br>- 어디가 틀렸는지 알 수 없어 물어볼 사람이 필요한 입문자<br><br><숙련자><br>- 도안을 자신이 원하는 무늬로 커스텀하고 싶은 뜨개질 숙련자<br>- 도안을 자신의 사이즈에 맞게 편집하고 싶은 뜨개질 숙련자<br><br><공통><br>- 자신의 작품과 도안을 공유하고 싶은 모든 뜨개인 |
