@@ -31,7 +31,7 @@
 | [28](#team-28) | HUK | 해외 여행 및 체류 중 ATM 스키밍을 비롯한 카드 정보 탈취와 부정 결제를 대처하는 이상 탐지 기반 카드 안전거래 서비스 |
 | [29](#team-29) | 컴세마리 | 바쁜 일상 속 현대인의 여가 시간 고민을 줄여주는 일정 & 취향 맞춤형 여가 추천 서비스 |
 | [30](#team-30) | 찹쌀떡 | 취업 준비자를 위해 gpt-4o를 이용하여 자기소개서를 분석하고 RAG 기반으로 예상 질문을 제공하는 면접 시뮬레이션 서비스 |
-| [31](#team-31) | 김미니 | AR 시니어 헬스댄스 : 실시간 모션캡쳐 피드백 기반 맞춤형 시니어 대상 피트니스 서비스 |
+| [31](#team-31) | 김미니 | 실시간 모션캡쳐 피드백을 기반으로 캐릭터와 함께할 수 있는 시니어 헬스댄스 |
 | [32](#team-32) | 홈런볼 | 영양제로 건강 관리를 하는 20대를 위해 Content-based Filtering AI 추천 시스템을 활용한 개인 맞춤형 영양제 추천 및 복용 관리 서비스 |
 | [33](#team-33) | 아리아리 | AI NPC 입체적 역할 부여를 통해 단조로운 대화패턴을 탈피한 <변호사 VS 검사> 재판 시뮬레이션 멀티플레이 게임 |
 | [34](#team-34) | IT인 | Cross-modal Federated Learning: Approaches to Reduce the Heterogeneity Gap through Multimodal Data Integration and Translation |
