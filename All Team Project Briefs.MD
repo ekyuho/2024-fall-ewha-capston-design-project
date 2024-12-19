@@ -19,7 +19,7 @@
 | [16](#team-16) | RexT | 위성인터넷 해킹을 통한 프라이버시 유출 방지를 위한 Fingerprinting 기법을 활용한 Starlink 네트워크 취약점 분석 |
 | [17](#team-17) | 테크핑 | EASY-STOCK: 주식 투자에 입문하고 싶지만 진입 장벽을 느끼는 2030세대를 위해 AI 챗봇을 활용해 쉽게 학습하고 모의 투자를 경험할 수 있는 초보자용 모의 투자 서비스 |
 | [18](#team-18) | 코드의 정상화 | 거리와 길의 경사 선택, 사용자 피드백을 반영해 개인 맞춤형 러닝 경로를 추천하는 서비스 |
-| [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
+| [19](#team-19) | JEY | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: polygon 경량화를 통한 topology 최적화를 중심으로. |
 | [20](#team-20) | 뜨개걸즈 | 털실과 그레텔 - Image Segmentation(DeepLab&Unet), GAN Pix2Pix를 활용하여 제품 이미지에서 뜨개질 패턴 추출 및 도안 생성하는 서비스 |
 | [21](#team-21) | 가능한 | Missing Modality Generation via Video-Audio Semantic Mapping in Federated Learning for Action Recognition |
 | [22](#team-22) | ZIP가기 | RAG 기반의 자립 준비 청년을 위한 신뢰성 있는 최신 복지 정보를 반영하여, 맞춤 응답을 제공해주는 대화형 3D 도우미 서비스 |
@@ -326,14 +326,14 @@
 |항목|내용|
 |---|---|
 | 팀명칭 | JEY |
-| 프로젝트명 | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: topology 복잡도 해결을 중심으로 |
-| 키워드 | Gaussian Splatting, Latent Diffusion, Computer Graphics |
-| 무엇을 만들고자 하는가 | 제한된 사진 데이터로도 고품질 3D 모델을 생성할 수 있도록 diffusion model과 3D gaussian splatting 기술 결합 |
+| 프로젝트명 | 3D Gaussian Splatting과 Latent Diffusion을 이용한 Single image-to-3D Model 개선 연구: polygon 경량화를 통한 topology 최적화를 중심으로. |
+| 키워드 | 3D Gaussian Splatting, Latent Diffusion, Computer Graphics |
+| 무엇을 만들고자 하는가 | 응용프로그램에서 활용할 수 있을 만큼 경량화된 3D 모델을 단 한 장의 사진으로 생성하는 프레임워크 |
 | 고객 |- 학부생 게임 개발자 정일반</br>개인 촬영이나 웹서핑으로 얻은 사진 몇 장만으로 자신의 게임 3D 환경에 모델을 업로드하고 싶음.</br></br>- 3D 모델링 디자이너 이전문</br>3D 모델링 작업을 이용해 작업의 효율을 높이고 싶음.|
-| Pain Point |- 학부생 게임 개발자 정일반</br>단 한 장의 사진으로 3D 모델을 생성하고 싶지만 3D 모델링 기술은 다양한 각도의 전문적인 사진을 요구함. 또한, 너무 오랜 시간이 걸림. 오랜 시간이 걸려 3D 모델링 했는데, 제작한 모델의 용량이 너무 커서 게임에 업로드 할 수 없음. </br></br>- 모델링 디자이너 이전문</br>직접 모델링하는 것에 비해, 3D 모델링의 이점이 없음. 여러 각도로 사진 찍고, 오랜 시간을 기다려야 할 바에는 직접 모델링하는 것이 효율적임. 모델링 후에 수정할 부분도 많고, 용량도 너무 큼.|
-| 솔루션 |Diffusion model - 제한된 시점에서 3D 객체의 모습을 추론하고 생성하는 기술</br>Gaussian splatting - 기존의 NeRF보다 빠른 속도로 3D 모델을 생성하는 기술|
-| 오래 축적한 데이타의 잠재적 가치 |- 3D 모델 데이터베이스(다양한 물체와 장면에 대한 3D 모델 데이터베이스), 2D에 대응되는 3D 모델 예측 데이터, 및 생성 결과에 대한 피드백(3D 모델 생성 과정에서의 diffusion 모델 피드백 기록) 축적</br>- 축적된 3D 모델과 피드백 데이터를 기반으로 diffusion model 개선 알고리즘을 지속적으로 발전시켜 3D 모델의 정확도와 품질이 향상|
-| 기대성과 |- 다양한 사용자들이 단일 사진으로 빠르게 고품질 3D 모델을 생성할 수 있게 되어 3D 환경 구축에 대한 접근성이 확대될 것임.</br>- 많은 사람들이 3D 모델링을 사용하게 되어 데이터가 풍부하게 축적될 것임.</br>- 데이터의 양이 커짐에 따라 모델의 성능이 지속적으로 향상되어 상용화 될 것임.|
+| Pain Point |- 학부생 게임 개발자 정일반</br>게임 내에 단 한 장의 사진으로 3D 모델을 생성해서 넣고 싶음. 하지만 현재 3D 모델링 기술은 다양한 각도의 전문적인 사진을 요구하고, 너무 오랜 시간이 걸림. 또한, 오랜 시간이 걸려 3D 모델링 했는데, 제작한 모델의 용량이 너무 커서 게임에 업로드 할 수 없음. </br></br>- 모델링 디자이너 이전문</br>직접 모델링하는 것에 비해, 3D 모델링의 이점이 없음. 여러 각도로 사진 찍고, 오랜 시간을 기다려야 할 바에는 직접 모델링하는 것이 효율적임. 모델링 후에 수정할 부분도 많고, 용량도 너무 큼.|
+| 솔루션 |1. **Latent-Diffusion**: 제한된 시점에서 3D 객체의 모습을 추론하고 생성하는 diffusion process를 더 낮은 차원으로 가능하게 하여 모델의 과정을 경량화한 deep generative 기술.</br></br>2. **3D Gaussian Splatting**: 3D Gaussian 최적화를 사용해서 기존의 NeRF보다 빠른 속도로 3D 모델을 생성하는 기술.</br></br>3. **Mesh Extraction/Mesh Refinement**: Instant-NGP으로 3D Gaussian을 NeRF로, NeRF2Mesh으로 NeRF을 Mesh로 바꾼 후 추출된 mesh를 후처리하는 기술|
+| 오래 축적한 데이타의 잠재적 가치 |- 3D 모델 데이터베이스(다양한 물체와 장면에 대한 3D 모델 데이터베이스), 2D에 대응되는 3D 모델 예측 데이터, 및 생성 결과에 대한 피드백(3D 모델 생성 과정에서의 diffusion 모델 피드백 기록) 축적</br></br>- 축적된 3D 모델과 피드백 데이터를 기반으로 diffusion model 개선 알고리즘을 지속적으로 발전시켜 3D 모델의 정확도와 품질 향상|
+| 기대성과 |- 많은 사용자(게임 사용자)들이 단일 사진으로 빠르게 고품질 3D 모델을 생성할 수 있게 되어 3D 환경 구축에 대한 접근성이 확대될 것임.</br></br>- 많은 사람들이 3D 모델링을 사용하게 되어 데이터가 풍부하게 축적될 것임.</br></br>- 데이터의 양이 커짐에 따라 모델의 성능이 지속적으로 향상되어 상용화 될 것임.|
 | 팀 그라운드룰 | https://github.com/jiu31/capstone-project/blob/main/Ground_Rule.md |
 
   [Return Top](#전체-프로젝트-리스트)
